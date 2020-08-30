@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&family=Open+Sans&display=swap");
+.hidden {
+  height: 10vh;
+  background-color: #faf6e9;
+}
+
+.heading-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf6e9;
+}
+
+.text-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 15vw;
+  font-weight: 400;
+  color: #494949;
+  margin: 0;
+}
+
+.sub-heading {
+  font-size: 2vw;
+  font-weight: 300;
+  color: #494949;
+  margin: 20px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: flex-start;
+  height: 10vh;
+}
+
+.caret-icon {
+  color: #494949;
+  font-size: 9vw;
+}
+
+.animated {
+  position: absolute;
+  animation: MoveUpDown 1s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 1vh;
+  }
+  50% {
+    bottom: 2.5vh;
+  }
+}

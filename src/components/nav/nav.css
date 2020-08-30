@@ -1,0 +1,37 @@
+.nav-container {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf6e9;
+  position: fixed;
+  z-index: 100;
+}
+
+.icons {
+  margin: 10px 10px;
+  color: #494949;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  color: #494949;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.link-hover {
+  cursor: pointer;
+}
+
+.iconsEnvelope {
+  margin: 3px 10px 0 0;
+  color: #494949;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
