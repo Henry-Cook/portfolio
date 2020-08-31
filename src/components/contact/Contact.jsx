@@ -10,7 +10,9 @@ function Contact() {
           <input type="text" placeholder="Name" />
           <input type="text" placeholder="Email" />
           <textarea type="text" placeholder="Message" />
-          <button type="submit">Send</button>
+          <button className="send-btn" type="submit">
+            Send
+          </button>
         </form>
       </div>
     </>

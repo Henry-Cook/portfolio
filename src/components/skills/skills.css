@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.colored {
+.skills-icon {
   font-size: 10vw;
 }
 
@@ -39,11 +39,16 @@
 }
 
 @keyframes MoveUpDown3 {
-  0%,
-  100% {
+  0%, 100% {
     bottom: -199vh;
   }
   50% {
     bottom: -200.5vh;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .skills-icon {
+    font-size: 7vw;
   }
 }

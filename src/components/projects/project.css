@@ -1,10 +1,150 @@
 .projects-container {
+  position: relative;
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #494949;
+  color: #faf6e9;
 }
 
-.project-title {
+.projects-container-light {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ece8d9;
+  color: #494949;
+}
+
+.project {
+  display: flex;
+}
+
+/* .project-title {} */
+
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-btn {
+  border: none;
+  background-color: #faf6e9;
+  color: #494949;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  margin: 50px 10px 0 10px;
+  border-radius: 10px;
+  transition: ease-in-out .2s;
+}
+
+.project-btn:hover {
+  background-color: #ece8d9;
+  transform: scale(1.05);
+}
+
+.project-btn-dark {
+  border: none;
+  background-color: #494949;
+  color: #faf6e9;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  margin: 50px 10px 0 10px;
+  border-radius: 10px;
+  transition: ease-in-out .2s;
+}
+
+.project-btn-dark:hover {
+  background-color: #313131;
+  transform: scale(1.05);
+}
+
+.project-text {
+  width: 70%;
+  text-align: center;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-project {
+  font-size: 3vw;
+  margin: 5px;
+}
+
+.project-video {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.built-with {
+  display: flex;
+  flex-direction: row;
+}
+
+video {
+  width: 60vw;
+  border: none;
+}
+
+.hover-text {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.animated4 {
+  position: absolute;
+  animation: MoveUpDown4 1s linear infinite;
+}
+
+.newDiv {
+  position: absolute;
+  animation: MoveUpDown10 1s linear infinite;
+  bottom: 10%;
+}
+
+@keyframes MoveUpDown4 {
+  0%, 100% {
+    bottom: 1%;
+  }
+  50% {
+    bottom: 2%;
+  }
+}
+
+@keyframes MoveUpDown10 {
+  0%, 100% {
+    bottom: 1%;
+  }
+  50% {
+    bottom: 2%;
+  }
+}
+
+.caret-icon4 {
+  color: #ece8d9;
+  cursor: pointer;
+  /* font-size: 9vw; */
+}
+
+.caret-icon4-dark {
+  color: #494949;
+  cursor: pointer;
+  /* font-size: 9vw; */
 }

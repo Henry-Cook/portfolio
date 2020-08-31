@@ -6,6 +6,7 @@ import About from "./components/about/About.jsx";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
+import projects from "./utils/projects";
 
 function App() {
   return (
@@ -14,10 +15,18 @@ function App() {
       <Heading />
       <About />
       <Skills />
-      <Projects color={"#494949"} fontColor={"#faf6e9"} />
-      <Projects color={" #faf6e9"} fontColor={"#494949"} />
-      <Projects color={"#494949"} fontColor={"#faf6e9"} />
-      <Projects color={" #ece8d9"} fontColor={"#494949"} />
+
+      {projects.map((project, i) => {
+        return (
+          <Projects
+            color={"#494949"}
+            fontColor={"#faf6e9"}
+            data={project}
+            index={i}
+          />
+        );
+      })}
+
       <Contact />
     </>
   );
