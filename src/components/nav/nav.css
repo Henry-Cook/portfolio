@@ -35,3 +35,15 @@
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+  .social-links {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
