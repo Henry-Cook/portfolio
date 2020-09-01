@@ -43,3 +43,18 @@
     bottom: -99.5vh;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .about-title {
+    font-size: 14vw;
+  }
+
+  .about-text {
+    width: 80vw;
+    font-size: 3vw;
+    display: inline-block;
+    text-align: center;
+    color: #494949;
+    font-family: "Open Sans", sans-serif;
+  }
+}

@@ -38,10 +38,18 @@ function Nav() {
               size="2x"
             />
           </Link>
-          <FontAwesomeIcon icon={faLinkedin} className="icons" size="2x" />
-          <FontAwesomeIcon icon={faGithub} className="icons" size="2x" />
-          <FontAwesomeIcon icon={faMedium} className="icons" size="2x" />
-          <FontAwesomeIcon icon={faDev} className="icons" size="2x" />
+          <a href="https://www.linkedin.com/in/henry-cook-dev/">
+            <FontAwesomeIcon icon={faLinkedin} className="icons" size="2x" />
+          </a>
+          <a href="https://github.com/Henry-Cook">
+            <FontAwesomeIcon icon={faGithub} className="icons" size="2x" />
+          </a>
+          <a href="https://medium.com/@henryfcook3">
+            <FontAwesomeIcon icon={faMedium} className="icons" size="2x" />
+          </a>
+          <a href="https://dev.to/henrycook">
+            <FontAwesomeIcon icon={faDev} className="icons" size="2x" />
+          </a>
         </div>
       </div>
     </>

@@ -39,8 +39,12 @@ function Projects(props) {
                 })}
               </div>
               <div className="project-buttons">
-                <button className="project-btn">See the code</button>
-                <button className="project-btn">See the Live Site</button>
+                <a href={props.data.github} className="project-btn">
+                  See the code
+                </a>
+                <a href={props.data.live} className="project-btn">
+                  See the Live Site
+                </a>
               </div>
             </div>
             <div className="project-video">
@@ -93,8 +97,12 @@ function Projects(props) {
                 })}
               </div>
               <div className="project-buttons">
-                <button className="project-btn-dark">See the code</button>
-                <button className="project-btn-dark">See the Live Site</button>
+                <a href={props.data.github} className="project-btn-dark">
+                  See the code
+                </a>
+                <a href={props.data.live} className="project-btn-dark">
+                  See the Live Site
+                </a>
               </div>
             </div>
           </div>

@@ -64,3 +64,13 @@
     bottom: 2.5vh;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .heading {
+    font-size: 17vw;
+  }
+
+  .sub-heading {
+    font-size: 3vw;
+  }
+}
