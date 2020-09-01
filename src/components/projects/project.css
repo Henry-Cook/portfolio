@@ -160,6 +160,13 @@ video {
 }
 
 @media screen and (max-width: 800px) {
+  video {
+    display: none;
+  }
+  .hover-text {
+    display: none;
+  }
+
   .project-video {
     display: none;
   }
