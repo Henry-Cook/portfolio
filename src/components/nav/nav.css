@@ -7,11 +7,7 @@
   background-color: #faf6e9;
   position: fixed;
   z-index: 100;
-}
-
-.icons {
-  margin: 10px 10px;
-  color: #494949;
+  padding: 10px;
 }
 
 .nav-links {
@@ -31,19 +27,8 @@
   color: #494949;
 }
 
-.social-links {
+.envelope-div {
   display: flex;
   align-items: center;
-}
-
-@media screen and (max-width: 600px) {
-  .nav-links {
-    display: none;
-  }
-  .social-links {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+  margin-right: 20px;
 }

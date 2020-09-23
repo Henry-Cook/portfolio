@@ -38,6 +38,18 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.social-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  margin: 0 20px 0 20px;
+  color: #494949;
+}
+
 .down-arrow {
   display: flex;
   justify-content: flex-start;
@@ -56,8 +68,7 @@
 }
 
 @keyframes MoveUpDown {
-  0%,
-  100% {
+  0%, 100% {
     bottom: 1vh;
   }
   50% {
@@ -69,7 +80,6 @@
   .heading {
     font-size: 17vw;
   }
-
   .sub-heading {
     font-size: 3vw;
   }

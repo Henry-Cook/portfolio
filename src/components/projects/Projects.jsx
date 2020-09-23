@@ -3,6 +3,7 @@ import "./project.css";
 import EHR from "../../assets/Screen Recording 2020-08-30 at 2.51.45 PM.mov";
 import FinDash from "../../assets/findashVideo.mov";
 import HealthFinder from "../../assets/healthFinder.mov";
+import ETGO from "../../assets/ETGOVideo.mov";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
@@ -13,10 +14,12 @@ function Projects(props) {
   let movie;
 
   if (index === 0) {
-    movie = EHR;
+    movie = ETGO;
   } else if (index === 1) {
-    movie = FinDash;
+    movie = EHR;
   } else if (index === 2) {
+    movie = FinDash;
+  } else if (index === 3) {
     movie = HealthFinder;
   }
 
@@ -34,8 +37,8 @@ function Projects(props) {
               <p className="project-text">{props.data.description}</p>
               <h3 className="project-title">Built With</h3>
               <div className="built-with">
-                {props.data.icons.map((icon) => {
-                  return <i className={`${icon} icon-project`}></i>;
+                {props.data.icons.map((icon, i) => {
+                  return <i key={i} className={`${icon} icon-project`}></i>;
                 })}
               </div>
               <div className="project-buttons">
@@ -59,7 +62,7 @@ function Projects(props) {
           </div>
           <div className="animated4">
             <Link
-              to={index === 2 ? "contact" : props.index + 1}
+              to={index === 3 ? "contact" : props.index + 1}
               smooth={true}
               duration={1000}
             >
@@ -92,8 +95,8 @@ function Projects(props) {
               <p className="project-text">{props.data.description}</p>
               <h3 className="project-title">Built With</h3>
               <div className="built-with">
-                {props.data.icons.map((icon) => {
-                  return <i className={`${icon} icon-project`}></i>;
+                {props.data.icons.map((icon, i) => {
+                  return <i key={i} className={`${icon} icon-project`}></i>;
                 })}
               </div>
               <div className="project-buttons">

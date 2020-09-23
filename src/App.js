@@ -23,6 +23,7 @@ function App() {
             fontColor={"#faf6e9"}
             data={project}
             index={i}
+            key={i}
           />
         );
       })}

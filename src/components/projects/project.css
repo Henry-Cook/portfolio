@@ -160,14 +160,9 @@ video {
 }
 
 @media screen and (max-width: 800px) {
-  .projects-container {
-    position: relative;
-    height: 99vh;
-  }
-
-  .projects-container-light {
-    position: relative;
-    height: 99vh;
+  .newDiv {
+    position: absolute;
+    animation: MoveUpDown10 1s linear infinite;
   }
 
   video {
@@ -183,5 +178,25 @@ video {
   .icon-project {
     font-size: 10vw;
     margin: 5px;
+  }
+
+  @keyframes MoveUpDown4 {
+    0%,
+    100% {
+      bottom: 3%;
+    }
+    50% {
+      bottom: 4%;
+    }
+  }
+
+  @keyframes MoveUpDown10 {
+    0%,
+    100% {
+      bottom: 3%;
+    }
+    50% {
+      bottom: 4%;
+    }
   }
 }
