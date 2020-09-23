@@ -33,6 +33,7 @@ input {
   border: 2px solid #494949;
   background-color: #faf6e9;
   font-size: 25px;
+  text-align: center;
 }
 
 input::placeholder {
@@ -47,6 +48,7 @@ textarea {
   border: 2px solid #494949;
   background-color: #faf6e9;
   font-size: 25px;
+  text-align: center;
 }
 
 textarea::placeholder {
