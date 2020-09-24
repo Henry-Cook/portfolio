@@ -11,18 +11,54 @@ function Skills() {
         <h1 className="skills-title">Skills</h1>
         <div className="skills-grid-container">
           <div className="icon-container">
-            <i className="devicon-javascript-plain colored skills-icon"></i>
-            <i className="devicon-html5-plain colored skills-icon"></i>
-            <i className="devicon-css3-plain colored skills-icon"></i>
-            <i className="devicon-react-original colored skills-icon"></i>
-            <i className="devicon-nodejs-plain colored skills-icon"></i>
-            <i className="devicon-express-original colored skills-icon"></i>
-            <i className="devicon-mongodb-plain colored skills-icon"></i>
-            <i className="devicon-postgresql-plain colored skills-icon"></i>
-            <i className="devicon-ruby-plain colored skills-icon"></i>
-            <i className="devicon-rails-plain colored skills-icon"></i>
-            <i className="devicon-bootstrap-plain colored skills-icon"></i>
-            <i className="devicon-git-plain colored skills-icon"></i>
+            <div>
+              <i className="devicon-javascript-plain colored skills-icon"></i>
+              <p className="icon-text">JavaScript</p>
+            </div>
+            <div>
+              <i className="devicon-html5-plain colored skills-icon"></i>
+              <p className="icon-text">HTML</p>
+            </div>
+            <div>
+              <i className="devicon-css3-plain colored skills-icon"></i>
+              <p className="icon-text">CSS</p>
+            </div>
+            <div>
+              <i className="devicon-react-original colored skills-icon"></i>
+              <p className="icon-text">React</p>
+            </div>
+            <div>
+              <i className="devicon-nodejs-plain colored skills-icon"></i>
+              <p className="icon-text">NodeJS</p>
+            </div>
+            <div>
+              <i className="devicon-express-original colored skills-icon"></i>
+              <p className="icon-text">Express</p>
+            </div>
+            <div>
+              <i className="devicon-mongodb-plain colored skills-icon"></i>
+              <p className="icon-text">MongoDB</p>
+            </div>
+            <div>
+              <i className="devicon-postgresql-plain colored skills-icon"></i>
+              <p className="icon-text">PostgreSQL</p>
+            </div>
+            <div>
+              <i className="devicon-ruby-plain colored skills-icon"></i>
+              <p className="icon-text">Ruby</p>
+            </div>
+            <div>
+              <i className="devicon-rails-plain colored skills-icon"></i>
+              <p className="icon-text">Rails</p>
+            </div>
+            <div>
+              <i className="devicon-bootstrap-plain colored skills-icon"></i>
+              <p className="icon-text">Bootstrap</p>
+            </div>
+            <div>
+              <i className="devicon-git-plain colored skills-icon"></i>
+              <p className="icon-text">Git</p>
+            </div>
           </div>
         </div>
         <div className="animated3">

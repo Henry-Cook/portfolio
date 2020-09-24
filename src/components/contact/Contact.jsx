@@ -34,9 +34,19 @@ function Contact() {
           <div className="contact-container" id="contact">
             <h1 className="contact-title">Let's Work Together</h1>
             <form onSubmit={sendEmail}>
-              <input type="text" placeholder="Name" name="user_name" />
-              <input type="text" placeholder="Email" name="user_email" />
-              <textarea type="text" placeholder="Message" name="message" />
+              <input type="text" placeholder="Name" name="user_name" required />
+              <input
+                type="email"
+                placeholder="Email"
+                name="user_email"
+                required
+              />
+              <textarea
+                type="text"
+                placeholder="Message"
+                name="message"
+                required
+              />
               <button className="send-btn" type="submit" value="Send">
                 Send
               </button>
